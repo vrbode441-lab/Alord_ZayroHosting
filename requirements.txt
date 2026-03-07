@@ -1,0 +1,17 @@
+# ══════════════════════════════════════════════════════════════════
+# Zayro Hosting — Python Dependencies
+# ══════════════════════════════════════════════════════════════════
+
+# Core Framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# Server utilities
+python-multipart==0.0.9    # لرفع الملفات (UploadFile)
+psutil==6.0.0              # مراقبة CPU وRAM
+pydantic==2.8.2            # التحقق من البيانات
+
+# اختياري — أضف المكتبات التي تحتاجها هنا
+# requests==2.32.3
+# aiohttp==3.10.5
+# python-dotenv==1.0.1
